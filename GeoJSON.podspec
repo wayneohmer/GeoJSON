@@ -28,9 +28,9 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.source_files = 'GeoJSON/*.swift'
-  s.resource_bundles = {
-    'GeoJSON' => ['Pod/Assets/*.png']
-  }
+  #s.resource_bundles = {
+  #  'GeoJSON' => ['Pod/Assets/*.png']
+  #}
 
    s.public_header_files = 'GeoJSON/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
