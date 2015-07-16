@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD06A2A61B58532B00650DCE /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = CD06A2A51B58532B00650DCE /* Podfile */; };
 		CDA9C7D81B3A1BBD003372AC /* testData.geojson in Resources */ = {isa = PBXBuildFile; fileRef = CDA9C7D71B3A1BBD003372AC /* testData.geojson */; };
 		CDA9C7D91B3A1D96003372AC /* GeoJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF115531B3A194700719817 /* GeoJSON.swift */; };
 		CDA9C7DB1B3A1FDA003372AC /* testData.geojson in Resources */ = {isa = PBXBuildFile; fileRef = CDA9C7D71B3A1BBD003372AC /* testData.geojson */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD06A2A51B58532B00650DCE /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		CDA9C7D71B3A1BBD003372AC /* testData.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = testData.geojson; path = GeoJSONTests/testData.geojson; sourceTree = SOURCE_ROOT; };
 		CDF115371B3A192F00719817 /* GeoJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GeoJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDF1153B1B3A192F00719817 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 		CDF1152D1B3A192F00719817 = {
 			isa = PBXGroup;
 			children = (
+				CD06A2A51B58532B00650DCE /* Podfile */,
 				CDF115391B3A192F00719817 /* GeoJSON */,
 				CDF115461B3A192F00719817 /* GeoJSONTests */,
 				CDF115381B3A192F00719817 /* Products */,
@@ -200,6 +203,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD06A2A61B58532B00650DCE /* Podfile in Resources */,
 				CDA9C7DB1B3A1FDA003372AC /* testData.geojson in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

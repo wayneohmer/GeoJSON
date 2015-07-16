@@ -233,7 +233,7 @@ public class GeoJSON: NSObject {
     }
 
     //MARK: - url "init"
-    class func GeoJSONWithUrl(url:String,completionHandler:(result: GeoJSON, error: String?) -> ()){
+    public class func GeoJSONWithUrl(url:String,completionHandler:(result: GeoJSON, error: String?) -> ()){
 
         var request = NSMutableURLRequest(URL: NSURL(string:url)!)
         var session = GeoJSONNSURLSession()
